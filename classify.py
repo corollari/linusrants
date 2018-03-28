@@ -8,7 +8,7 @@ analyzed=[]
 def hateIndex(o):
     return o["hate"]
 
-for line in open("rants.txt", 'r'):
+for line in open("original/rants.txt", 'r'):
     line=line[:-1] #Remove line break
     result=requests.post(api_endpoint, data={"text":line})
     negativity=json.loads(result.text)["probability"]["neg"]
