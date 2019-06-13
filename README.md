@@ -3,6 +3,8 @@ Just a collection of all the rants from Linus Torvalds on the kernel mailing lis
 
 The complete processed dataset can be found in `data.json` in json-formatted form and in `data.pkl` in pickle-formatted form, ready for consumption in python programs.
 
+For a more easy-to-read representation, check out [the dataset in a table](table.md).
+
 Extract from `data.json`:
 ```json
 [  
