@@ -1,5 +1,5 @@
 # linusrants
-Just a collection of all the Linus Rants on the kernel mailing list from 2012 to 2015 classified by the amount of hate and sorted by it.
+Just a collection of all the rants from Linus Torvalds on the kernel mailing list from 2012 to 2015 classified by the amount of hate and sorted by it.
 
 The complete processed dataset can be found in `data.json` in json-formatted form and in `data.pkl` in pickle-formatted form, ready for consumption in python programs.
 
