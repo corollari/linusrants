@@ -5,6 +5,8 @@ The complete processed dataset can be found in `data.json` in json-formatted for
 
 For a more easy-to-read representation, check out [the dataset in a table](table.md).
 
+If you'd like to do some analysis or plotting of the data, the best resource for that is [the full dataset in csv format](rants.csv).
+
 Extract from `data.json`:
 ```json
 [  
@@ -22,6 +24,12 @@ Extract from `data.json`:
    }
 ]
 ```
+
+## Analysis
+Plot of hate levels vs time (x axis is not properly scaled):
+![](linushate.png)
+
+## Build
 To build it yourself just run:
 ```bash
 python classify.py
